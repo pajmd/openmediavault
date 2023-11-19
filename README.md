@@ -31,6 +31,13 @@ animation-iteration-count:0 !important;
 }
 */
 ```
+
+Add a line to index.html to load the css
+```
+vi index.html
+<link rel="stylesheet" href="__custom.css">
+```
+
 #### Note
 It doesn't seem to work.
 
@@ -39,9 +46,3 @@ I add to create an [app password](https://support.google.com/mail/answer/185833?
 
 Maybe a better alternative would have been to use [restricted Gmail SMTP server](https://support.google.com/a/answer/176600?hl=en&sjid=3623814072379207560-EU)
 
-
-Add a line to index.html to load the css
-```
-vi index.html
-<link rel="stylesheet" href="__custom.css">
-```
